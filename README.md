@@ -1,1 +1,1 @@
-# partie1-02
+# Learn to program with JavaScript
