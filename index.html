@@ -2,13 +2,53 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+
     <script src="/js/config.js" defer></script>
     <script src="/js/script.js" defer></script>
     <script src="/js/main.js" defer></script>
 </head>
 <body>
-    
+    <!-- HEADER -->
+    <header>
+        <h1>AzerType</h1>
+        <h2>The app to write faster!</h2>
+        <h3>AzerType is an online application for learning to type faster on keyboard :)</h3>
+    </header>
+
+    <!-- MAIN -->
+    <main>
+        <div class="choiceZone">
+            <p>Choose your option and type the suggestion that appears in the field below.</p>
+            <div class="userChoice">
+                <input type="radio" name="userChoice" id="words" value="1" checked>
+                <label for="words">Words</label>
+                <input type="radio" name="userChoice" id="setences" value="2">
+                <label for="sentences">Sentences</label>
+            </div>
+        </div>
+
+        <div class="suggestionZone">
+            Azerty
+        </div>
+
+        <div class="inputZone">
+            <input type="text" id="userInput" name="userInput">
+            <button id="validateButton">Validate</button>
+        </div>
+
+        <div class="scoreZone">
+            Your score: <span>0</span>
+        </div>
+        
+    </main>
+
+    <!-- FOOTER -->
+    <footer>
+        Copyright © 2025 - MisterFox - Learning project based on the OpenClassrooms course.
+    </footer>
 </body>
 </html>
